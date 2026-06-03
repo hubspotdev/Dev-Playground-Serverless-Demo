@@ -1,0 +1,7 @@
+{
+  "uid": "cosmic_contact_board_pages",
+  "type": "pages",
+  "config": {
+    "entrypoint": "/app/pages/Pages.jsx"
+  }
+}

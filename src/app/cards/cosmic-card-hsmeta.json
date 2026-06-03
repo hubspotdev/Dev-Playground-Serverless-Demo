@@ -1,0 +1,11 @@
+{
+  "uid": "cosmic_contact_card",
+  "type": "card",
+  "config": {
+    "name": "Cosmic Snapshot",
+    "description": "Shows the NASA Astronomy Picture of the Day from when this contact became a customer.",
+    "location": "crm.record.tab",
+    "entrypoint": "/app/cards/CosmicCard.jsx",
+    "objectTypes": ["contacts"]
+  }
+}

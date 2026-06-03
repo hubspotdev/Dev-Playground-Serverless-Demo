@@ -1,0 +1,11 @@
+{
+  "uid": "insecure_apod_card",
+  "type": "card",
+  "config": {
+    "name": "APOD Fetch (Insecure Demo)",
+    "description": "Demonstrates the WRONG way to call an external API. The API key is visible in the browser network tab.",
+    "location": "crm.record.tab",
+    "entrypoint": "/app/cards/InsecureApodCard.jsx",
+    "objectTypes": ["contacts"]
+  }
+}

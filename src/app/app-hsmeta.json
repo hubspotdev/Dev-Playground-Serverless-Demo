@@ -1,0 +1,23 @@
+{
+  "uid": "cosmic_contact_board",
+  "type": "app",
+  "config": {
+    "name": "Cosmic Contacts",
+    "description": "Shows your HubSpot contacts alongside the NASA Astronomy Picture of the Day from the date they became a customer.",
+    "distribution": "private",
+    "auth": {
+      "type": "static",
+      "requiredScopes": ["oauth", "crm.objects.contacts.read"]
+    },
+    "permittedUrls": {
+      "fetch": ["https://api.nasa.gov"],
+      "iframe": [],
+      "img": [
+        "https://apod.nasa.gov",
+        "https://upload.wikimedia.org",
+        "https://www.nasa.gov",
+        "https://science.nasa.gov"
+      ]
+    }
+  }
+}

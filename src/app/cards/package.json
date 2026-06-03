@@ -1,0 +1,9 @@
+{
+  "name": "cosmic-contact-card",
+  "version": "0.1.0",
+  "dependencies": {
+    "@hubspot/ui-extensions": "latest",
+    "@cosmic-contacts/utils": "1.0.0",
+    "react": "^18.2.0"
+  }
+}

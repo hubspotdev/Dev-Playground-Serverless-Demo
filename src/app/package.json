@@ -1,0 +1,4 @@
+{
+  "name": "cosmic-contact-board-root",
+  "workspaces": ["cards", "pages", "packages/*"]
+}

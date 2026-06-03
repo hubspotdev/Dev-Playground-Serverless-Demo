@@ -1,0 +1,8 @@
+{
+  "uid": "cosmic_snapshot",
+  "type": "app-function",
+  "config": {
+    "entrypoint": "/app/functions/CosmicSnapshot.js",
+    "secretKeys": ["NASA_API_KEY"]
+  }
+}
